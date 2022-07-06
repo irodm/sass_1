@@ -1,10 +1,11 @@
 .header{
-    background-color: rgb(242, 208, 242);
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     &__img{
-        margin: left 1rem;
+        margin-left:  1rem;
+        
     }
     &__ul{
         display: flex;
@@ -14,6 +15,7 @@
            padding: 1rem;
         }
         &--active{
+            color: rgb(215, 128, 200);
             font-weight: bold;
         }
     }

@@ -1,0 +1,15 @@
+.card{
+   background-color: rgb(195, 249, 195);
+   margin: 1rem;
+   border-radius: 15px;
+   width: $ancho;
+   padding: 2rem;
+
+}
+@media (max-width: 650px){
+    .card{
+        width: $ancho/2;
+        margin: 1rem;
+    }
+    
+}
