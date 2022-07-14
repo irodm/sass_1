@@ -1,22 +1,33 @@
-.header{
+.header {
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &__img{
-        margin-left:  1rem;
-        
+
+    &__img {
+        margin-left: 1rem;
+        border-radius: 50%;
+        object-fit: cover;
+
     }
-    &__ul{
+
+    &__ul {
+        list-style: none;
         display: flex;
         list-style: none;
         font-weight: bold;
-        li{
-           padding: 1rem;
+
+        li {
+            
+            padding: 1rem;
         }
-        &--active{
+
+        &--active {
             color: rgb(215, 128, 200);
             font-weight: bold;
         }
+        
     }
+
 }
+

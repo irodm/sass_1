@@ -1,15 +1,55 @@
-.card{
-   background-color: rgb(195, 249, 195);
-   margin: 1rem;
-   border-radius: 15px;
-   width: $ancho;
-   padding: 2rem;
+.card {
+    background-color: rgb(195, 249, 195);
+    margin: 1rem;
+    border-radius: 15px;
+
+    padding: 2rem;
+
+    h2 {
+        font-family: $comentariosletra;
+    }
+
+    &:hover {
+        background-color: rgb(207, 241, 157);
+
+    }g
+
+    p {
+        @extend %estiloparrafo;
+    }
 
 }
-@media (max-width: 650px){
-    .card{
+
+@media (max-width: 650px) {
+    .card {
         width: $ancho/2;
         margin: 1rem;
     }
-    
+
+}
+
+$testimonios: "ITA-INA";
+
+.card {
+    @if($testimonios =="ITA-INA") {
+        font-family: $encabezado;
+        font-weight: bold;
+        color: rgb(141, 150, 219);
+
+    }
+
+    @else {
+        background-color: antiquewhite;
+        color: rgb(195, 249, 195)
+    }
+}
+
+.main {
+    color: rgb(73, 43, 73);
+    font-size: large;
+    font-family: $encabezado ;
+}
+
+.main__img {
+    display: flex;
 }

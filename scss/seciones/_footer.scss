@@ -1,0 +1,31 @@
+
+.footer {
+    background-color: rgb(242, 192, 201);
+    display: flex;
+    padding: 20px;
+    justify-content:space-between;
+    align-items: center;  
+    text-align: center;  
+    text-transform: uppercase;
+   text-decoration: none;
+   font-family:$parrafoletra;
+ &__h3{
+    
+    text-align: center;
+    
+ }
+ &__ul{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    li{
+        display: inline-block;
+    }
+    a{
+        padding: 10px;
+    }
+ }
+   
+
+   }
+
